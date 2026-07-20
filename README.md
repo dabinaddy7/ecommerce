@@ -4,6 +4,14 @@ UCI Online Retail 데이터셋을 활용하여 이커머스 매출 및 주문 �
 
 ---
 
+## 📅 Today I Learned (TIL)
+매일 배운 점과 분석 기록을 일지 형태로 기록하고 있습니다. 
+
+* 📂 **[TIL 폴더 전체 보기](./TIL/)**
+* 📝 **[최근 학습 일지 (2026-07-20)](./TIL/2026-07-20.md)**
+
+---
+
 ## 📈 주요 분석 내용
 
 ### 1. 월별 매출 및 주문 트렌드 분석
@@ -24,14 +32,15 @@ UCI Online Retail 데이터셋을 활용하여 이커머스 매출 및 주문 �
 ## 🛠️ 사용 기술 및 라이브러리
 * **Language**: Python
 * **Libraries**: Pandas, Seaborn, Matplotlib
-* **Tool**: Jupyter Notebook / VS Code
+* **Tool**: VS Code / Jupyter Notebook
 
 ---
 
 ## 📂 디렉토리 구조
 ```text
 ecommerce/
-├── data/
-│   └── Online_Retail.csv       # 원본 데이터셋
-├── ecommerce_analysis.ipynb    # 데이터 분석 주피터 노트북
+├── TIL/
+│   └── 2026-07-20.md           # 오늘의 분석 및 학습 기록
+├── data.csv                    # 원본 데이터셋
+├── ecommerce.py                # 파이썬 분석 소스 코드
 └── README.md                   # 프로젝트 설명 문서
